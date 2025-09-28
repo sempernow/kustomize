@@ -15,5 +15,5 @@ kustomize version 2>/dev/null |grep -q v$v &&
 
 curl -sfSL $url |tar -xz &&
     sudo install kustomize /usr/local/bin/ &&
-        kustomize --version ||
+        kustomize version ||
             echo ERR : $? : NOT installed
