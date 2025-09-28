@@ -3,7 +3,7 @@
 ## Example
 
 ```bash
-bash make.app.sh up
+bash make.app.sh [ up | down ]
 ```
     .
     ├── base
